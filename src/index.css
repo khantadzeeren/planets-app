@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@400;700&family=League+Spartan:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #070724;
+  background-image: url(./assets/background-stars.svg);
+  width: 100vw;
+  height: 100vh;
+}
+.start {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.headline {
+  font-family: Antonio;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: -1.0499999523162842px;
+  text-align: left;
+  color: #ffffff;
+}
+.hr1 {
+  background: #ffffff;
+  height: 1px;
+  opacity: 0.2;
+}
+.hr2 {
+  background: #ffffff;
+  height: 1px;
+  opacity: 0.2;
+}
+.choise {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+}
+.btn {
+  font-family: "Spartan";
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 10px;
+  letter-spacing: 1.9285714626312256px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.5;
+  background-color: transparent;
+  border: none;
+}
+
+.name {
+  font-family: Antonio;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.namediv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.descriptiondiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+.description {
+  font-family: Spartan;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  width: 327px;
+}
+.img1div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 95px;
+}
+.src {
+  font-family: Spartan;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  opacity: 0.5;
+}
+.srcdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+.src2 {
+  font-family: Spartan;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  opacity: 0.5;
+}
+.same {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 327px;
+  height: 48px;
+  border: 1px solid #ffffff;
+  margin-top: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.same1 {
+  font-family: Spartan;
+  font-size: 8px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.7272727489471436px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.sametime {
+  font-family: Antonio;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.75px;
+  color: #ffffff;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.diff {
+  margin-bottom: 47px;
+}
+.names {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 51px;
+  margin-right: 53px;
+  display: none;
+}
+.sameplanets {
+  font-family: Spartan;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+}
+@media (min-width: 768px) {
+  .menu {
+    display: none;
+  }
+  .start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .names {
+    display: flex;
+  }
+  .img1div {
+    margin-top: 146px;
+  }
+  .namediv {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 39px;
+  }
+  .descriptiondiv {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 39px;
+  }
+  .srcdiv {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 39px;
+    margin-top: 32px;
+  }
+  .hr1 {
+    margin-top: 27px;
+  }
+  .hr2 {
+    display: none;
+  }
+  .choise {
+    display: none;
+  }
+  .bottom {
+    display: flex;
+    flex-direction: row;
+    padding-left: 39px;
+    padding-right: 40px;
+    padding-bottom:36px ;
+  }
+  .same {
+    width: 164px;
+    height: 88px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .diff{
+    margin-bottom: auto;
+  }
+  .big {
+    display: flex;
+    margin-top: 130px;
+    justify-content: space-between;
+    padding-right: 40px;
+  }
+  .choice2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .btn {
+    height: 40px;
+    width: 281px;
+    border: 1px solid #ffffff;
+    margin:8px 0;
+    text-transform: uppercase;
+    font-family: Spartan;
+font-size: 9px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 1.9285714626312256px;
+color: #ffffff;
+opacity: 1;
+
+
+    
+    
+  }
+  .btn:hover {
+    background-color: #419EBB;
+
+  }
+}
+@media (min-width: 1440px) {
+}
